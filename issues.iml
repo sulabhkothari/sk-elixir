@@ -24,11 +24,20 @@
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/ssl_verify_fun" />
       <excludeFolder url="file://$MODULE_DIR$/_build/dev/lib/unicode_util_compat" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/certifi" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/earmark" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/earmark_parser" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ex_doc" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/excoveralls" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/exjsx" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/hackney" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/httpoison" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/idna" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/jsx" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/makeup" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/makeup_elixir" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/metrics" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/mimerl" />
+      <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/nimble_parsec" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/parse_trans" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/poison" />
       <excludeFolder url="file://$MODULE_DIR$/_build/test/lib/ssl_verify_fun" />
@@ -63,5 +72,9 @@
     <orderEntry type="library" name="benchee" level="project" />
     <orderEntry type="library" name="nimble_parsec" level="project" />
     <orderEntry type="library" name="stream_data" level="project" />
+    <orderEntry type="library" name="mock" level="project" />
+    <orderEntry type="library" name="meck" level="project" />
+    <orderEntry type="library" name="jsx" level="project" />
+    <orderEntry type="library" name="mixunit" level="project" />
   </component>
 </module>

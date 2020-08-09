@@ -14,6 +14,17 @@ defmodule Issues.GithubIssues do
   def issues_url(user, project) do
     "https://api.github.com/repos/#{user}/#{project}/issues"
   end
+
+  @doc """
+      ## Example
+      iex> data = [21,1,2,66,7,90]
+      iex> Issues.GithubIssues.sort_a_list(data)
+      [1,2,7,21,66,90]
+  """
+  def sort_a_list(l) do
+    Enum.sort(l)
+  end
+
   def handle_response({_, %{status_code: status_code, body: body}}) do
     {
       status_code
